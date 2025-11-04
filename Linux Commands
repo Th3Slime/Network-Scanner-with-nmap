@@ -1,0 +1,7 @@
+sudo apt update && sudo apt install nmap  # Update packages and install nmap
+
+nmap -sn 192.168.1.0/24  # Replace with your network IP range
+
+nmap -sV 192.168.1.1  # Replace with a target IP (e.g., your router)
+
+nmap -oN scan_results.txt 192.168.1.1  # Output to a file
