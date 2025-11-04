@@ -1,0 +1,9 @@
+The syntax is
+
+command > filename
+For example, send output of the ls command to file named foo.txt
+
+$ ls > foo.txt
+View foo.txt using the cat command
+
+$ cat foo.txt
