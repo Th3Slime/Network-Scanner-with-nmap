@@ -1,0 +1,11 @@
+The syntax is
+command >> filename
+
+For example the following will append data:
+echo "--------------" >> /tmp/data.txt
+echo "Domain information" >> /tmp/data.txt
+host www.cyberciti.biz >> /tmp/data.txt
+echo "--------------" >> /tmp/data.txt
+
+Verify it:
+cat /tmp/data.txt
